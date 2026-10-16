@@ -15,8 +15,8 @@ public class HebrewMatcher {
         if (s == null) return "";
         // remove niqqud (unicode 0591 to 05C7)
         String cleaned = s.replaceAll("[\u0591-\u05C7]", "");
-        // remove punctuation, quotes, double spaces
-        cleaned = cleaned.replaceAll("[\\.,\\?!\\-\"'\״\׳\n\r]", " ");
+        // remove punctuation, quotes, Hebrew geresh/gershayim, newlines, hyphens
+        cleaned = cleaned.replaceAll("[.,?!\"'\\u05F4\\u05F3\\n\\r-]", " ");
         cleaned = cleaned.replaceAll("\\s+", " ").trim();
         return cleaned.toLowerCase();
     }
