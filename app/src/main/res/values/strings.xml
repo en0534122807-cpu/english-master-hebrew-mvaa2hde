@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">לומדים אנגלית Pro</string>
+    <string name="tab_practice">תרגול</string>
+    <string name="tab_review">מילים לחזרה</string>
+    <string name="tab_custom">המילים שלי</string>
+    <string name="tab_profile">הישגים</string>
+    
+    <string name="points_format">נקודות: %d</string>
+    <string name="streak_format">%d ימי רצף 🔥</string>
+    <string name="level_beginner">מתחילים (A1-A2)</string>
+    <string name="level_intermediate">בינוני (B1-B2)</string>
+    <string name="level_advanced">מתקדמים (C1-C2)</string>
+    <string name="level_all">כל הרמות</string>
+    
+    <string name="cat_basics">בסיסי וחיוני</string>
+    <string name="cat_travel">טיולים ומלונאות</string>
+    <string name="cat_business">עסקים ועבודה</string>
+    <string name="cat_tech">טכנולוגיה ומחשבים</string>
+    <string name="cat_food">אוכל ומסעדות</string>
+    <string name="cat_daily">חיי יום-יום</string>
+    <string name="cat_all">כל הנושאים</string>
+    <string name="cat_custom_title">מותאם אישית</string>
+    
+    <string name="input_hint">הקלד/י את התרגום בעברית...</string>
+    <string name="btn_check">בדיקה ✓</string>
+    <string name="btn_skip">דילוג (לחזור בהמשך)</string>
+    <string name="btn_next">המילה הבאה ➔</string>
+    <string name="btn_listen">השמע הגייה 🔊</string>
+    <string name="correct_msg">כל הכבוד! תשובה נכונה (+10 נק\')</string>
+    <string name="typo_correct_msg">כמעט מדויק (שגיאת כתיב קלה) - התקבל! (+8 נק\')</string>
+    <string name="wrong_msg">לא נורא, נלמד! התרגום הנכון הוא:</string>
+    <string name="added_to_review">המילה נוספה למאגר החזרות שלך</string>
+    
+    <string name="empty_review">מצוין! אין מילים שממתינות לחזרה כרגע 🎉</string>
+    <string name="start_review_btn">התחל תרגול חוזר (%d מילים)</string>
+    
+    <string name="add_word_title">הוספת מילה משלך למאגר</string>
+    <string name="add_word_en_hint">מילה או ביטוי באנגלית (למשל: Breakthrough)</string>
+    <string name="add_word_he_hint">תרגום בעברית (ניתן להפריד נרדפות בפסיק)</string>
+    <string name="add_word_cat_hint">שם קטגוריה (אופציונלי, ברירת מחדל: מותאם אישית)</string>
+    <string name="btn_save_word">הוסף מילה למאגר</string>
+    <string name="word_added_success">המילה נוספה בהצלחה למאגר!</string>
+    
+    <string name="achievements_title">ההישגים והתגים שלך</string>
+    <string name="stats_learned">מילים שתורגלו: %d</string>
+    <string name="stats_streak">שיא רצף: %d ימים</string>
+    <string name="stats_review_done">שגיאות שתוקנו: %d</string>
+</resources>

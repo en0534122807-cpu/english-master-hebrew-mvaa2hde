@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Rounded Background in Emerald/Indigo theme -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M20,6 C10,6 6,10 6,20 L6,76 C6,86 10,90 20,90 L76,90 C86,90 90,86 90,76 L90,20 C90,10 86,6 76,6 Z" />
+    <!-- Gradient accent card surface -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M16,14 C12,14 10,16 10,20 L10,76 C10,80 12,82 16,82 L80,82 C84,82 86,80 86,76 L86,20 C86,16 84,14 80,14 Z" />
+    <!-- Flashcard inner surface -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,22 C18,22 16,24 16,28 L16,68 C16,72 18,74 22,74 L74,74 C78,74 80,72 80,68 L80,28 C80,24 78,22 74,22 Z" />
+    <!-- Letter 'A' (English) -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M32,60 L36,60 L44,34 L40,34 L32,60 Z M44,34 L48,34 L56,60 L52,60 L44,34 Z M36,52 L52,52 L52,48 L36,48 Z" />
+    <!-- Star of reward/progress -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M65,30 L67.5,35 L73,35.5 L69,39.5 L70,45 L65,42.5 L60,45 L61,39.5 L57,35.5 L62.5,35 Z" />
+    <!-- Checkmark of success -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M60,56 L64,60 L73,49 L76,52 L64,66 L57,59 Z" />
+</vector>
